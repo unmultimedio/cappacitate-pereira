@@ -27,7 +27,7 @@ public class MainActivity extends ActionBarActivity {
         cities =
           Arrays.asList(getResources().getStringArray(R.array.cities));
 
-        ArrayAdapter myAdapter = new ArrayAdapter(this,
+        CustomAdapter myAdapter = new CustomAdapter(this,
                 android.R.layout.simple_list_item_1,
                 cities);
 

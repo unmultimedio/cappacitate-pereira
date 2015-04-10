@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">CappacitatePereira</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Limpiar</string>
+
+    <string name="hint_edit_text">Ingresa un texto</string>
+    <string name="btn_text">Enviar</string>
+    <string name="title_activity_response">ResponseActivity</string>
+    <string name="search_item_str">Buscar</string>
+    <string name="new_item_str">Nuevo</string>
+
+    <string name="toast_new">Hola Nuevo!</string>
+
+</resources>

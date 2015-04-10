@@ -2,4 +2,8 @@
 <resources>
     <color name="red_utp">#ffff2a31</color>
     <color name="yellow_utp">#ffffd344</color>
+    <color name="green">#ff4fff37</color>
+    <color name="violet">#ffbc3dff</color>
+    <color name="orange">#ffff8b1b</color>
+    <color name="blue">#ff2718ff</color>
 </resources>

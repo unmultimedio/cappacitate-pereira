@@ -22,4 +22,8 @@
         <item>Cartagena</item>
     </string-array>
 
+    <string name="item1">Visitar</string>
+    <string name="item2">Destruir</string>
+    <string name="item3">Conquistar</string>
+
 </resources>

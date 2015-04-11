@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Preferencias</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="insert_data_tv">Inserte los datos de las variables</string>
+
+    <string name="hint_string">Inserte un String</string>
+    <string name="hint_int">Inserte un int</string>
+    <string name="hint_boolean">Chequee un booleano</string>
+
+    <string name="save_btn">Guardar</string>
+    <string name="clear_btn">Limpiar</string>
+
+    <string name="value_string">Dato String:</string>
+    <string name="value_int">Dato int:</string>
+    <string name="value_boolean">Dato booleano:</string>
+
+    <string name="no_value">NO HAY DATO</string>
+</resources>

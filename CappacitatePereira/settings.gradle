@@ -1,1 +1,1 @@
-include ':app', ':menucontextual'
+include ':app', ':menucontextual', ':preferencias'

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Notificaciones</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title_hint">Ingresa un título</string>
+    <string name="content_hint">Ingresa un contenido</string>
+    <string name="btn_notify">Notificar</string>
+    <string name="title_activity_response">ResponseActivity</string>
+</resources>

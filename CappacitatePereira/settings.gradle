@@ -1,1 +1,1 @@
-include ':app', ':menucontextual', ':preferencias'
+include ':app', ':menucontextual', ':preferencias', ':mapas', ':notificaciones'

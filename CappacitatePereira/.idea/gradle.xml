@@ -10,7 +10,9 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/mapas" />
             <option value="$PROJECT_DIR$/menucontextual" />
+            <option value="$PROJECT_DIR$/notificaciones" />
             <option value="$PROJECT_DIR$/preferencias" />
           </set>
         </option>

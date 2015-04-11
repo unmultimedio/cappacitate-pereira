@@ -54,34 +54,10 @@ public class MainActivity extends ActionBarActivity {
         EditText et;
         switch (view.getId()){
             case R.id.btn_string:
-                et = (EditText) findViewById(R.id.value_string);
-                String text = et.getText().toString();
-                if(!text.isEmpty()){
-                    //editor.putString(llave, valor);
-                    editor.putString("string",text);
-                    editor.commit();
-                    Toast.makeText(this, "Guardado!", Toast.LENGTH_SHORT).show();
-                }else{
-                    Toast.makeText(this, "Vacío, no guardado!", Toast.LENGTH_SHORT).show();
-                }
-                break;
             case R.id.btn_int:
-                et = (EditText) findViewById(R.id.value_int);
-                try {
-                    int value = Integer.valueOf(et.getText().toString());
-                    //editor.putString(llave, valor);
-                    editor.putInt("int", value);
-                    editor.commit();
-                    Toast.makeText(this, "Guardado!", Toast.LENGTH_SHORT).show();
-                }catch(Exception e){
-                    Toast.makeText(this, "Hey ponte serio!", Toast.LENGTH_SHORT).show();
-                }
-                break;
             case R.id.btn_boolean:
-                CheckBox cb = (CheckBox) findViewById(R.id.value_boolean);
-                editor.putBoolean("boolean",cb.isChecked());
-                editor.commit();
-                Toast.makeText(this, "Guardado!", Toast.LENGTH_SHORT).show();
+                ((FragmentUp)getFragmentManager().findFragmentById(R.id.fragment))
+                        .buttonClicked(view);
                 break;
             case R.id.btn_clear:
                 editor.clear();
